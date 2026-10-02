@@ -1,3 +1,27 @@
 /welcome/
 /.ipynb_checkpoints/
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and test artifacts
+.vscode/
+.idea/
+.pytest_cache/
+.coverage
+htmlcov/
